@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Site</title>
+    <link rel="stylesheet" href="ressources/css/style.css">
+</head>
+<body style="background-image: url(ressources/images/nature1.png);">
+    <header>
+        
+        <h2 class="logo">Solution Techno's</h2>
+        <nav class="navigation">
+            <a href="#">Accueil</a>
+            <a href="#">A Propos</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnlogin-popup">Login</button>
+            
+        </nav>
+        
+    </header>
+   
+    <div class="cheikh">
+        <span class="fermeture-icone">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <font size="2" color="#000;">
+                <marquee behavior="right">
+                <h3 class="font-italic">Bonjouir si vous êtes nouveau merci d'ouvrir votre compte afin de pouvoir voir nos différents produits sur notre plateforme de vente en ligne mais également service de dépannage sur tous les types de produits électronique. Nous sommes votre solution ! Service à domicile possible partout à Saint-Louis...</h3>
+                </marquee>
+            </font>
+            <h2>Authentification</h2>
+            
+            <form action="http://localhost/solutiontech/">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Mot de passe</label>
+                </div>
+                <div class="souvenir">
+                    <label><input type="checkbox">
+                    Se Souvenir de moi</label>
+                    <a href="#">Mot de Passe Oublié</a>
+                </div>
+                <button type="submit" class="btn">Se Connecter</button>
+                <div class="login-enregitrement">
+                    <p>J'ai pas de Compte <a href="#" class="lien-enregitrement">Ouvrir Compte</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <font size="2" color="#000;">
+                <marquee behavior="right">
+                <h3 class="font-italic">Merci d'avoir créer ouvrir votre compte. Nous sommes votre solution ! Service à domicile possible partout à Saint-Louis...</h3>
+                </marquee>
+            </font>
+            <h2>Inscription</h2>
+            <form action="inscrip.php">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Prenom</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>nom</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Mot de passe</label>
+                </div>
+                <div class="souvenir">
+                    <label><input type="checkbox">
+                    Accepter les termes & Conditions</label>
+                    
+                </div>
+                <button type="submit" class="btn">Enregistrer</button>
+                <div class="login-enregitrement">
+                    <p>J'ai un Compte <a href="#" class="compte-enregitrement">Je me connecte</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="ressources/js/script.js"></script>
+</body>
+</html>
